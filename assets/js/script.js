@@ -62,8 +62,7 @@ gsap.from(".home__scroll", {
   opacity: 0,
   duration: 3,
   delay: 1.5,
-  y: 35,
-  ease: "expo.out",
+  // ease: "expo.out",
 });
 
 /* === Scroll Reveal Section ===*/
