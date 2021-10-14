@@ -66,4 +66,14 @@ gsap.from(".home__scroll", {
   ease: "expo.out",
 });
 
-/* === ===*/
+/* === Scroll Reveal Section ===*/
+const sr = ScrollReveal({
+  duration: 2500,
+  reset: true,
+});
+
+// Data
+sr.reveal(".section__data", { origin: "left", distance: "70px" });
+
+// image
+sr.reveal(".section__img", { origin: "left", distance: "90px", delay: 200 });
